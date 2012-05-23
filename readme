@@ -1,0 +1,107 @@
+Introduction
+
+The stored procedure data gateway is a utility that generates classes for each Stored Procedure within an MS SQL Server database. Each Stored Procedure can be configured to expose only supported functionality (i.e., ExecuteDataSet, ExecuteDataReader, ExecuteXML, ExecuteNonQuery, or ExecuteScalar).
+
+The utility also generates a .csproj that encapsulates the data layer in a single assembly, which can then be included into your existing project for data access.
+
+I wanted something that could be easily implemented with as little coding on the individual Stored Procedure classes as possible, with the base class containing most if not all of the data access logic. The bulk of the work will be on the individual classes and coding the logic for each Stored Procedure. Here's a sample of the class that has been generated.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace SPDataGateway
+{
+    public class sp_getfavourites: spbase<sp_getfavourites.efields>, IExecuteDataSet, IExecuteDataReader, IExecuteXML
+    {
+        public enum eFields { userid }
+
+       protected override bool[] eFieldsIO { get { return new bool[] {false}; } }
+
+        public sp_getfavourites ( Int64 userid )
+        {
+            this.userid = userid;
+
+        }
+
+        public Int64 userid { get; set; }
+
+
+        public System.Data.DataSet ExecuteDataSet()
+        {
+            return base.ExecuteDataSet(eFields.userid);
+        }
+	public System.Data.SqlClient.SqlDataReader ExecuteDataReader()
+        {
+            return base.ExecuteDataReader(eFields.userid);
+        }
+        public string ExecuteXML()
+        {
+            return base.ExecuteXML(eFields.userid);
+        }
+
+
+        protected override string StoredProcedureName { get { return "sp_getfavourites"; } }
+    }
+} 
+
+Each individual class only encapsulates the function exposed, the Stored Procedure name, and the parameters required; the bulk of the logic is contained in the base class. 
+
+The "settings" for the app can also be done within the stored procedures via "metadata" to indicate functions to be exposed. To make use of this functionality, add the following code anywhere within the stored procedures; the app will make use of regular expressions to detect the "metadata" 
+
+ /*[SPDG]Skip,ExecuteDataSet,ExecuteDataReader,ExecuteXML,ExecuteNonQuery,ExecuteScalar*/
+ OR
+ /*[SPDG]ExecuteNonQuery*/
+ OR
+ /*[SPDG]Skip*/ - to be exclude in class generation 
+
+Only include the functionality you would like to expose for the particular stored procedure. if no "metadata" is included, the app will leave the options for you to fill in. 
+
+I've also included support for accessing output parameters from stored procedures. The output will be stored in the public properties of the stored procedure classes. 
+
+
+The Solution
+
+The utility is a single form application that contains these controls:
+
+Toolbar
+New - Clears the form.
+Open - Opens an XML file that contains your project settings.
+Save - Saves your settings for the project in XML format (saved in .spg).
+Synchronize - Synchronizes the current list with new Stored Procedures from the database.
+Write classes - Performs an IO writing of the Stored Procedure classes and supporting classes.
+Form
+Connection String - Connection string to connect to your database.
+Namespace - Namespace and assembly name for the cs project being created.
+Default Project Dir - Contains the default directory in which the project will be written to
+Left pane - Contains the full list of Stored Procedures and the options for each procedure.
+Right pane - Contains three tabs that holds the following info:
+Stored Procedure parameters - List of parameters of the currently selected procedure.
+Stored Procedure - The Stored Procedure content retrieved from the database.
+C# SP class - The sample of the class generated.
+
+
+To start off a new project, click on New and key in the connection string and the desired namespace for the project; when you are done, click on Synchronize and the app will retrieve all Stored Procedures into the list on the left pane.
+
+You can then proceed to configure each Stored Procedure, to tell the application if the Stored Procedure returns a dataset, XML, or scalar value, or if there are no return values.
+
+Scrolling through the list will update the right pane with details of the selected Stored Procedure.
+
+When done, remember to save your work; the application will prompt to create a .spg file which contains an XML document with all settings. Correspondingly, to retrieve your previous work, click on Open and select the saved .spg file. the new version is backward compatible with existing spg files.
+
+The utility will create these directories and files:
+
+\ - project root directory which will hold only the .csproj file
+\helpers\ - contains the SQLHelper.cs class from here
+\interfaces\ - contains all the interfaces for the project
+\sps\ - contains the Stored Procedure classes and base classes
+
+
+History
+
+added support for returning SqlDataReader
+added support for stored procedure output parameters
+corrected datatype mappings
+backward compatible with v1
+added support for stored procedure "metadata"
