@@ -1,0 +1,3045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strCompileInclude" xml:space="preserve">
+    <value>    &lt;Compile Include="sps\{0}" /&gt;</value>
+    <comment>{0} - sp name</comment>
+  </data>
+  <data name="strCSPROJ" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+  &lt;PropertyGroup&gt;
+    &lt;Configuration Condition=" '$(Configuration)' == '' "&gt;Debug&lt;/Configuration&gt;
+    &lt;Platform Condition=" '$(Platform)' == '' "&gt;AnyCPU&lt;/Platform&gt;
+    &lt;ProductVersion&gt;8.0.30703&lt;/ProductVersion&gt;
+    &lt;SchemaVersion&gt;2.0&lt;/SchemaVersion&gt;
+    &lt;ProjectGuid&gt;&lt;/ProjectGuid&gt;
+    &lt;OutputType&gt;Library&lt;/OutputType&gt;
+    &lt;AppDesignerFolder&gt;Properties&lt;/AppDesignerFolder&gt;
+    &lt;RootNamespace&gt;{0}&lt;/RootNamespace&gt;
+    &lt;AssemblyName&gt;{0}&lt;/AssemblyName&gt;
+    &lt;TargetFrameworkVersion&gt;v4.0&lt;/TargetFrameworkVersion&gt;
+    &lt;FileAlignment&gt;512&lt;/FileAlignment&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "&gt;
+    &lt;DebugSymbols&gt;true&lt;/DebugSymbols&gt;
+    &lt;DebugType&gt;full&lt;/DebugType&gt;
+    &lt;Optimize&gt;false&lt;/Optimize&gt;
+    &lt;OutputPath&gt;bin\Debug\&lt;/OutputPath&gt;
+    &lt;DefineConstants&gt;DEBUG;TRACE&lt;/DefineConstants&gt;
+    &lt;ErrorReport&gt;prompt&lt;/ErrorReport&gt;
+    &lt;WarningLevel&gt;4&lt;/WarningLevel&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' "&gt;
+    &lt;DebugType&gt;pdbonly&lt;/DebugType&gt;
+    &lt;Optimize&gt;true&lt;/Optimize&gt;
+    &lt;OutputPath&gt;bin\Release\&lt;/OutputPath&gt;
+    &lt;DefineConstants&gt;TRACE&lt;/DefineConstants&gt;
+    &lt;ErrorReport&gt;prompt&lt;/ErrorReport&gt;
+    &lt;WarningLevel&gt;4&lt;/WarningLevel&gt;
+  &lt;/PropertyGroup&gt;
+  &lt;ItemGroup&gt;
+    &lt;Reference Include="System" /&gt;
+    &lt;Reference Include="System.Configuration" /&gt;
+    &lt;Reference Include="System.Core" /&gt;
+    &lt;Reference Include="System.Web" /&gt;
+    &lt;Reference Include="System.Xml.Linq" /&gt;
+    &lt;Reference Include="System.Data.DataSetExtensions" /&gt;
+    &lt;Reference Include="Microsoft.CSharp" /&gt;
+    &lt;Reference Include="System.Data" /&gt;
+    &lt;Reference Include="System.Xml" /&gt;
+  &lt;/ItemGroup&gt;
+  &lt;ItemGroup&gt;
+    &lt;Compile Include="interfaces\IExecuteDataSet.cs" /&gt;
+    &lt;Compile Include="interfaces\IExecuteDataReader.cs" /&gt;
+    &lt;Compile Include="interfaces\IExecuteNonQuery.cs" /&gt;
+    &lt;Compile Include="interfaces\IExecuteScalar.cs" /&gt;
+    &lt;Compile Include="interfaces\IExecuteXML.cs" /&gt;
+    &lt;Compile Include="helpers\SQLHelper.cs" /&gt;
+    &lt;Compile Include="sps\spbase.cs" /&gt;
+{1}
+  &lt;/ItemGroup&gt;
+  &lt;Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" /&gt;
+  &lt;!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  &lt;Target Name="BeforeBuild"&gt;
+  &lt;/Target&gt;
+  &lt;Target Name="AfterBuild"&gt;
+  &lt;/Target&gt;
+  --&gt;
+&lt;/Project&gt;</value>
+    <comment>{0} - namespace
+{1} - includes</comment>
+  </data>
+  <data name="strIExecuteDataSet" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    interface IExecuteDataSet
+    &lt;&lt;
+        System.Data.DataSet ExecuteDataSet();
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace</comment>
+  </data>
+  <data name="strIExecuteDataSetImplementation" xml:space="preserve">
+    <value>        public System.Data.DataSet ExecuteDataSet()
+        &lt;&lt;
+            return base.ExecuteDataSet({0});
+        &gt;&gt;</value>
+    <comment>{0} - parameters</comment>
+  </data>
+  <data name="strIExecuteNonQuery" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    interface IExecuteNonQuery
+    &lt;&lt;
+        void ExecuteNonQuery();
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace</comment>
+  </data>
+  <data name="strIExecuteNonQueryImplementation" xml:space="preserve">
+    <value>        public void ExecuteNonQuery()
+        &lt;&lt;
+            base.ExecuteNonQuery({0});
+        &gt;&gt;</value>
+    <comment>{0} - parameters</comment>
+  </data>
+  <data name="strIExecuteScalar" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    interface IExecuteScalar
+    &lt;&lt;
+        object ExecuteScalar();
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace</comment>
+  </data>
+  <data name="strIExecuteScalarImplementation" xml:space="preserve">
+    <value>        public object ExecuteScalar()
+        &lt;&lt;
+            return base.ExecuteScalar({0});
+        &gt;&gt;</value>
+    <comment>{0} - parameters</comment>
+  </data>
+  <data name="strIExecuteXML" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    interface IExecuteXML
+    &lt;&lt;
+        string ExecuteXML();
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace</comment>
+  </data>
+  <data name="strIExecuteXMLImplementation" xml:space="preserve">
+    <value>        public string ExecuteXML()
+        &lt;&lt;
+            return base.ExecuteXML({0});
+        &gt;&gt;</value>
+    <comment>{0} - parameters</comment>
+  </data>
+  <data name="strProperty" xml:space="preserve">
+    <value>        public {0} {1} &lt;&lt; get; set; &gt;&gt;</value>
+    <comment>{0} - datatype
+{1} - property name</comment>
+  </data>
+  <data name="strSPBase" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Data;
+using System.Data.SqlClient;
+using System.Text;
+using System.Reflection;
+using System.Configuration;
+
+namespace {0}
+&lt;&lt;
+    public abstract class spbase&lt;tfields&gt; : IDisposable
+    &lt;&lt;
+        private SqlParameter[] sqlparams &lt;&lt; get; set; &gt;&gt;
+        private SqlConnection SQLConnection &lt;&lt; get; set; &gt;&gt;
+        protected abstract string StoredProcedureName &lt;&lt; get; &gt;&gt;
+        protected abstract bool[] eFieldsIO &lt;&lt; get; &gt;&gt;
+    
+        public spbase()
+        &lt;&lt;
+            try
+            &lt;&lt;
+                this.SQLConnection = new SqlConnection("{1}");
+            &gt;&gt;
+            catch (Exception e)
+            &lt;&lt;
+                this.Dispose();
+                throw e;
+            &gt;&gt;
+        &gt;&gt;
+
+        private SqlParameter[] setParameters(params tfields[] fields)
+        &lt;&lt;
+            if (fields.Length &lt;= 0) return null;
+
+            SqlParameter[] sqlparams = new SqlParameter[fields.Length];
+            for (int i = 0; i &lt; fields.Length; i++)
+            &lt;&lt;
+                PropertyInfo pi = this.GetType().GetProperty(fields[i].ToString());
+                sqlparams[i] = new SqlParameter(fields[i].ToString(), pi.GetGetMethod().Invoke(this, null));
+                if (this.eFieldsIO[i])
+                    sqlparams[i].Direction = ParameterDirection.InputOutput;
+            &gt;&gt;
+            return sqlparams;
+        &gt;&gt;
+        private void setOutputParameters(params tfields[] fields)
+        &lt;&lt;
+            for (int i = 0; i &lt; this.eFieldsIO.Length; i++)
+            &lt;&lt;
+                if (this.eFieldsIO[i])
+                &lt;&lt;
+                    PropertyInfo pi = this.GetType().GetProperty(fields[i].ToString());
+                    pi.SetValue(this, sqlparams[i].Value, null);
+                &gt;&gt;
+            &gt;&gt;
+        &gt;&gt;
+        public virtual bool checkFields(params tfields[] fieldstocheck) &lt;&lt; return true; &gt;&gt;
+        protected virtual string ExecuteXML(params tfields[] fields)
+        &lt;&lt;
+            return ExecuteDataSet(fields).GetXml();
+        &gt;&gt;
+        protected virtual DataSet ExecuteDataSet(params tfields[] fields)
+        &lt;&lt;
+            sqlparams = this.setParameters(fields);
+            DataSet ds = SqlHelper.ExecuteDataset(this.SQLConnection, CommandType.StoredProcedure, this.StoredProcedureName, sqlparams);
+            this.setOutputParameters(fields);
+            return ds;
+        &gt;&gt;
+        protected virtual SqlDataReader ExecuteDataReader(params tfields[] fields)
+        &lt;&lt;
+            sqlparams = this.setParameters(fields);
+            SqlDataReader dr = SqlHelper.ExecuteReader(this.SQLConnection, CommandType.StoredProcedure, this.StoredProcedureName, sqlparams);
+            this.setOutputParameters(fields);
+            return dr;
+        &gt;&gt;
+        protected virtual void ExecuteNonQuery(params tfields[] fields)
+        &lt;&lt;
+            sqlparams = this.setParameters(fields);
+            SqlHelper.ExecuteNonQuery(this.SQLConnection, CommandType.StoredProcedure, this.StoredProcedureName, sqlparams);
+            this.setOutputParameters(fields);
+        &gt;&gt;
+        protected virtual object ExecuteScalar(params tfields[] fields) 
+        &lt;&lt;
+            sqlparams = this.setParameters(fields);
+            object rslt = SqlHelper.ExecuteScalar(this.SQLConnection, CommandType.StoredProcedure, this.StoredProcedureName, sqlparams);
+            setOutputParameters(fields);
+            return rslt;
+        &gt;&gt;
+
+        public void Dispose()
+        &lt;&lt;
+            this.SQLConnection.Close();
+            this.SQLConnection = null;
+            this.SQLConnection.Dispose();
+        &gt;&gt;
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace
+{1} - connection string</comment>
+  </data>
+  <data name="strSPClass" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    public class {1}: spbase&lt;{1}.eFields&gt;{2}
+    &lt;&lt;
+        {3}
+       protected override bool[] eFieldsIO &lt;&lt; get &lt;&lt; return new bool[] &lt;&lt;{8}&gt;&gt;; &gt;&gt; &gt;&gt;
+
+        public {1} ( {6} )
+        &lt;&lt;
+{7}
+        &gt;&gt;
+
+{4}
+
+{5}
+
+        protected override string StoredProcedureName &lt;&lt; get &lt;&lt; return "{1}"; &gt;&gt; &gt;&gt;
+    &gt;&gt;
+&gt;&gt;</value>
+    <comment>{0} - namespace
+{1} - procedurenane
+{2} - interfaces
+{3} - enums
+{4} - properties
+{5} - interface implementation
+{6} - constructor params
+{7} - constructor body
+{8} - eFieldsIO property</comment>
+  </data>
+  <data name="strSPConstructor" xml:space="preserve">
+    <value>public {0} ( {1} )
+&lt;&lt;
+{2}        
+&gt;&gt;</value>
+  </data>
+  <data name="strSPConstructorBodyEntry" xml:space="preserve">
+    <value>            this.{0} = {0};</value>
+    <comment>{0} - property name</comment>
+  </data>
+  <data name="strSQLHelper" xml:space="preserve">
+    <value>using System;
+using System.Data;
+using System.Xml;
+using System.Data.SqlClient;
+using System.Collections;
+
+    /// &lt;summary&gt;
+    /// The SqlHelper class is intended to encapsulate high performance, scalable best practices for 
+    /// common uses of SqlClient
+    /// &lt;/summary&gt;
+    public sealed class SqlHelper
+    {
+        #region private utility methods &amp; constructors
+
+        // Since this class provides only static methods, make the default constructor private to prevent 
+        // instances from being created with "new SqlHelper()"
+        private SqlHelper() { }
+
+        /// &lt;summary&gt;
+        /// This method is used to attach array of SqlParameters to a SqlCommand.
+        /// 
+        /// This method will assign a value of DbNull to any parameter with a direction of
+        /// InputOutput and a value of null.  
+        /// 
+        /// This behavior will prevent default values from being used, but
+        /// this will be the less common case than an intended pure output parameter (derived as InputOutput)
+        /// where the user provided no input value.
+        /// &lt;/summary&gt;
+        /// &lt;param name="command"&gt;The command to which the parameters will be added&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParameters to be added to command&lt;/param&gt;
+        private static void AttachParameters(SqlCommand command, SqlParameter[] commandParameters)
+        {
+            if (command == null) throw new ArgumentNullException("command");
+            if (commandParameters != null)
+            {
+                foreach (SqlParameter p in commandParameters)
+                {
+                    if (p != null)
+                    {
+                        // Check for derived output value with no value assigned
+                        if ((p.Direction == ParameterDirection.InputOutput ||
+                            p.Direction == ParameterDirection.Input) &amp;&amp;
+                            (p.Value == null))
+                        {
+                            p.Value = DBNull.Value;
+                        }
+                        command.Parameters.Add(p);
+                    }
+                }
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// This method assigns dataRow column values to an array of SqlParameters
+        /// &lt;/summary&gt;
+        /// &lt;param name="commandParameters"&gt;Array of SqlParameters to be assigned values&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values&lt;/param&gt;
+        private static void AssignParameterValues(SqlParameter[] commandParameters, DataRow dataRow)
+        {
+            if ((commandParameters == null) || (dataRow == null))
+            {
+                // Do nothing if we get no data
+                return;
+            }
+
+            int i = 0;
+            // Set the parameters values
+            foreach (SqlParameter commandParameter in commandParameters)
+            {
+                // Check the parameter name
+                if (commandParameter.ParameterName == null ||
+                    commandParameter.ParameterName.Length &lt;= 1)
+                    throw new Exception(
+                        string.Format(
+                            "Please provide a valid parameter name on the parameter #{0}, the ParameterName property has the following value: '{1}'.",
+                            i, commandParameter.ParameterName));
+                if (dataRow.Table.Columns.IndexOf(commandParameter.ParameterName.Substring(1)) != -1)
+                    commandParameter.Value = dataRow[commandParameter.ParameterName.Substring(1)];
+                i++;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// This method assigns an array of values to an array of SqlParameters
+        /// &lt;/summary&gt;
+        /// &lt;param name="commandParameters"&gt;Array of SqlParameters to be assigned values&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;Array of objects holding the values to be assigned&lt;/param&gt;
+        private static void AssignParameterValues(SqlParameter[] commandParameters, object[] parameterValues)
+        {
+            if ((commandParameters == null) || (parameterValues == null))
+            {
+                // Do nothing if we get no data
+                return;
+            }
+
+            // We must have the same number of values as we pave parameters to put them in
+            if (commandParameters.Length != parameterValues.Length)
+            {
+                throw new ArgumentException("Parameter count does not match Parameter Value count.");
+            }
+
+            // Iterate through the SqlParameters, assigning the values from the corresponding position in the 
+            // value array
+            for (int i = 0, j = commandParameters.Length; i &lt; j; i++)
+            {
+                // If the current array value derives from IDbDataParameter, then assign its Value property
+                if (parameterValues[i] is IDbDataParameter)
+                {
+                    IDbDataParameter paramInstance = (IDbDataParameter)parameterValues[i];
+                    if (paramInstance.Value == null)
+                    {
+                        commandParameters[i].Value = DBNull.Value;
+                    }
+                    else
+                    {
+                        commandParameters[i].Value = paramInstance.Value;
+                    }
+                }
+                else if (parameterValues[i] == null)
+                {
+                    commandParameters[i].Value = DBNull.Value;
+                }
+                else
+                {
+                    commandParameters[i].Value = parameterValues[i];
+                }
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// This method opens (if necessary) and assigns a connection, transaction, command type and parameters 
+        /// to the provided command
+        /// &lt;/summary&gt;
+        /// &lt;param name="command"&gt;The SqlCommand to be prepared&lt;/param&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection, on which to execute this command&lt;/param&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction, or 'null'&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParameters to be associated with the command or 'null' if no parameters are required&lt;/param&gt;
+        /// &lt;param name="mustCloseConnection"&gt;&lt;c&gt;true&lt;/c&gt; if the connection was opened by the method, otherwose is false.&lt;/param&gt;
+        private static void PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, string commandText, SqlParameter[] commandParameters, out bool mustCloseConnection)
+        {
+            if (command == null) throw new ArgumentNullException("command");
+            if (commandText == null || commandText.Length == 0) throw new ArgumentNullException("commandText");
+
+            // If the provided connection is not open, we will open it
+            if (connection.State != ConnectionState.Open)
+            {
+                mustCloseConnection = true;
+                try
+                {
+                    connection.Open();
+                }
+                catch (Exception e)
+                {
+                    string msg = "Database connection Error! Maybe your Database is not runing or database connection string is mistake?";
+                    throw new Exception(msg, e);
+                }
+            }
+            else
+            {
+                mustCloseConnection = false;
+            }
+
+            // Associate the connection with the command
+            command.Connection = connection;
+
+            // Set the command text (stored procedure name or SQL statement)
+            command.CommandText = commandText;
+
+            // If we were provided a transaction, assign it
+            if (transaction != null)
+            {
+                if (transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+                command.Transaction = transaction;
+            }
+
+            // Set the command type
+            command.CommandType = commandType;
+
+            // Attach the command parameters if they are provided
+            if (commandParameters != null)
+            {
+                AttachParameters(command, commandParameters);
+            }
+            return;
+        }
+
+        #endregion private utility methods &amp; constructors
+
+        #region ExecuteNonQuery
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset and takes no parameters) against the database specified in 
+        /// the connection string
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(connString, CommandType.StoredProcedure, "PublishOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(string connectionString, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteNonQuery(connectionString, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset) against the database specified in the connection string 
+        /// using the provided parameters
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(connString, CommandType.StoredProcedure, "PublishOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(string connectionString, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                return ExecuteNonQuery(connection, commandType, commandText, commandParameters);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the database specified in 
+        /// the connection string using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(connString, "PublishOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored prcedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(string connectionString, string spName, params object[] parameterValues)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteNonQuery(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteNonQuery(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(conn, CommandType.StoredProcedure, "PublishOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlConnection connection, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteNonQuery(connection, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(conn, CommandType.StoredProcedure, "PublishOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlConnection connection, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, connection, (SqlTransaction)null, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Finally, execute the command
+            int retval = cmd.ExecuteNonQuery();
+
+            // Detach the SqlParameters from the command object, so they can be used again
+            cmd.Parameters.Clear();
+            if (mustCloseConnection)
+                connection.Close();
+            return retval;
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(conn, "PublishOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlConnection connection, string spName, params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteNonQuery(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteNonQuery(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(trans, CommandType.StoredProcedure, "PublishOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlTransaction transaction, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteNonQuery(transaction, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns no resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(trans, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlTransaction transaction, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, transaction.Connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Finally, execute the command
+            int retval = cmd.ExecuteNonQuery();
+
+            // Detach the SqlParameters from the command object, so they can be used again
+            cmd.Parameters.Clear();
+            return retval;
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the specified 
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int result = ExecuteNonQuery(conn, trans, "PublishOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQuery(SqlTransaction transaction, string spName, params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteNonQuery(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteNonQuery(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion ExecuteNonQuery
+
+        #region ExecuteDataset
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the database specified in 
+        /// the connection string. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(connString, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(string connectionString, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteDataset(connectionString, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the database specified in the connection string 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(connString, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(string connectionString, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                return ExecuteDataset(connection, commandType, commandText, commandParameters);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the database specified in 
+        /// the connection string using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(connString, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(string connectionString, string spName, params object[] parameterValues)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteDataset(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteDataset(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(conn, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlConnection connection, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteDataset(connection, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(conn, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlConnection connection, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, connection, (SqlTransaction)null, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Create the DataAdapter &amp; DataSet
+            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+            {
+                DataSet ds = new DataSet();
+
+                // Fill the DataSet using default values for DataTable names, etc
+                da.Fill(ds);
+
+                // Detach the SqlParameters from the command object, so they can be used again
+                cmd.Parameters.Clear();
+
+                if (mustCloseConnection)
+                    connection.Close();
+
+                // Return the dataset
+                return ds;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(conn, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlConnection connection, string spName, params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteDataset(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteDataset(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(trans, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlTransaction transaction, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteDataset(transaction, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(trans, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlTransaction transaction, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, transaction.Connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Create the DataAdapter &amp; DataSet
+            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+            {
+                DataSet ds = new DataSet();
+
+                // Fill the DataSet using default values for DataTable names, etc
+                da.Fill(ds);
+
+                // Detach the SqlParameters from the command object, so they can be used again
+                cmd.Parameters.Clear();
+
+                // Return the dataset
+                return ds;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified 
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  DataSet ds = ExecuteDataset(trans, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDataset(SqlTransaction transaction, string spName, params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteDataset(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteDataset(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion ExecuteDataset
+
+        #region ExecuteReader
+
+        /// &lt;summary&gt;
+        /// This enum is used to indicate whether the connection was provided by the caller, or created by SqlHelper, so that
+        /// we can set the appropriate CommandBehavior when calling ExecuteReader()
+        /// &lt;/summary&gt;
+        private enum SqlConnectionOwnership
+        {
+            /// &lt;summary&gt;Connection is owned and managed by SqlHelper&lt;/summary&gt;
+            Internal,
+            /// &lt;summary&gt;Connection is owned and managed by the caller&lt;/summary&gt;
+            External
+        }
+
+        /// &lt;summary&gt;
+        /// Create and prepare a SqlCommand, and call ExecuteReader with the appropriate CommandBehavior.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// If we created and opened the connection, we want the connection to be closed when the DataReader is closed.
+        /// 
+        /// If the caller provided the connection, we want to leave it to them to manage.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection, on which to execute this command&lt;/param&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction, or 'null'&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParameters to be associated with the command or 'null' if no parameters are required&lt;/param&gt;
+        /// &lt;param name="connectionOwnership"&gt;Indicates whether the connection parameter was provided by the caller, or created by SqlHelper&lt;/param&gt;
+        /// &lt;returns&gt;SqlDataReader containing the results of the command&lt;/returns&gt;
+        private static SqlDataReader ExecuteReader(SqlConnection connection, SqlTransaction transaction, CommandType commandType, string commandText, SqlParameter[] commandParameters, SqlConnectionOwnership connectionOwnership)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+
+            bool mustCloseConnection = false;
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            try
+            {
+                PrepareCommand(cmd, connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+                // Create a reader
+                SqlDataReader dataReader;
+
+                // Call ExecuteReader with the appropriate CommandBehavior
+                if (connectionOwnership == SqlConnectionOwnership.External)
+                {
+                    dataReader = cmd.ExecuteReader();
+                }
+                else
+                {
+                    dataReader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                }
+
+                // Detach the SqlParameters from the command object, so they can be used again.
+                // HACK: There is a problem here, the output parameter values are fletched 
+                // when the reader is closed, so if the parameters are detached from the command
+                // then the SqlReader cant set its values. 
+                // When this happen, the parameters cant be used again in other command.
+                bool canClear = true;
+                foreach (SqlParameter commandParameter in cmd.Parameters)
+                {
+                    if (commandParameter.Direction != ParameterDirection.Input)
+                        canClear = false;
+                }
+
+                if (canClear)
+                {
+                    cmd.Parameters.Clear();
+                }
+
+                return dataReader;
+            }
+            catch
+            {
+                if (mustCloseConnection)
+                    connection.Close();
+                throw;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the database specified in 
+        /// the connection string. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(connString, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(string connectionString, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteReader(connectionString, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the database specified in the connection string 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(connString, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(string connectionString, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            SqlConnection connection = null;
+            try
+            {
+                connection = new SqlConnection(connectionString);
+                connection.Open();
+
+                // Call the private overload that takes an internally owned connection in place of the connection string
+                return ExecuteReader(connection, null, commandType, commandText, commandParameters, SqlConnectionOwnership.Internal);
+            }
+            catch
+            {
+                // If we fail to return the SqlDatReader, we need to close the connection ourselves
+                if (connection != null) connection.Close();
+                throw;
+            }
+
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the database specified in 
+        /// the connection string using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(connString, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(string connectionString, string spName, params object[] parameterValues)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                AssignParameterValues(commandParameters, parameterValues);
+
+                return ExecuteReader(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteReader(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(conn, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlConnection connection, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteReader(connection, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(conn, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlConnection connection, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            // Pass through the call to the private overload using a null transaction value and an externally owned connection
+            return ExecuteReader(connection, (SqlTransaction)null, commandType, commandText, commandParameters, SqlConnectionOwnership.External);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(conn, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlConnection connection, string spName, params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                AssignParameterValues(commandParameters, parameterValues);
+
+                return ExecuteReader(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteReader(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(trans, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlTransaction transaction, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteReader(transaction, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///   SqlDataReader dr = ExecuteReader(trans, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlTransaction transaction, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+
+            // Pass through to private overload, indicating that the connection is owned by the caller
+            return ExecuteReader(transaction.Connection, transaction, commandType, commandText, commandParameters, SqlConnectionOwnership.External);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  SqlDataReader dr = ExecuteReader(trans, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReader(SqlTransaction transaction, string spName, params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                AssignParameterValues(commandParameters, parameterValues);
+
+                return ExecuteReader(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteReader(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion ExecuteReader
+
+        #region ExecuteScalar
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset and takes no parameters) against the database specified in 
+        /// the connection string. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(connString, CommandType.StoredProcedure, "GetOrderCount");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(string connectionString, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteScalar(connectionString, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset) against the database specified in the connection string 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(connString, CommandType.StoredProcedure, "GetOrderCount", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(string connectionString, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                return ExecuteScalar(connection, commandType, commandText, commandParameters);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the database specified in 
+        /// the connection string using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(connString, "GetOrderCount", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(string connectionString, string spName, params object[] parameterValues)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteScalar(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteScalar(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(conn, CommandType.StoredProcedure, "GetOrderCount");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlConnection connection, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteScalar(connection, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(conn, CommandType.StoredProcedure, "GetOrderCount", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlConnection connection, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, connection, (SqlTransaction)null, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Execute the command &amp; return the results
+            object retval = cmd.ExecuteScalar();
+
+            // Detach the SqlParameters from the command object, so they can be used again
+            cmd.Parameters.Clear();
+
+            if (mustCloseConnection)
+                connection.Close();
+
+            return retval;
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(conn, "GetOrderCount", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlConnection connection, string spName, params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteScalar(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteScalar(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(trans, CommandType.StoredProcedure, "GetOrderCount");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlTransaction transaction, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteScalar(transaction, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a 1x1 resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(trans, CommandType.StoredProcedure, "GetOrderCount", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlTransaction transaction, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, transaction.Connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Execute the command &amp; return the results
+            object retval = cmd.ExecuteScalar();
+
+            // Detach the SqlParameters from the command object, so they can be used again
+            cmd.Parameters.Clear();
+            return retval;
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the specified
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  int orderCount = (int)ExecuteScalar(trans, "GetOrderCount", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalar(SqlTransaction transaction, string spName, params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // PPull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteScalar(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteScalar(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion ExecuteScalar
+
+        #region ExecuteXmlReader
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(conn, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command using "FOR XML AUTO"&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlConnection connection, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteXmlReader(connection, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(conn, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command using "FOR XML AUTO"&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlConnection connection, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+
+            bool mustCloseConnection = false;
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            try
+            {
+                PrepareCommand(cmd, connection, (SqlTransaction)null, commandType, commandText, commandParameters, out mustCloseConnection);
+
+                // Create the DataAdapter &amp; DataSet
+                XmlReader retval = cmd.ExecuteXmlReader();
+
+                // Detach the SqlParameters from the command object, so they can be used again
+                cmd.Parameters.Clear();
+
+                return retval;
+            }
+            catch
+            {
+                if (mustCloseConnection)
+                    connection.Close();
+                throw;
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(conn, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure using "FOR XML AUTO"&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlConnection connection, string spName, params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteXmlReader(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteXmlReader(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(trans, CommandType.StoredProcedure, "GetOrders");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command using "FOR XML AUTO"&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlTransaction transaction, CommandType commandType, string commandText)
+        {
+            // Pass through the call providing null for the set of SqlParameters
+            return ExecuteXmlReader(transaction, commandType, commandText, (SqlParameter[])null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(trans, CommandType.StoredProcedure, "GetOrders", new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command using "FOR XML AUTO"&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlTransaction transaction, CommandType commandType, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+
+            // Create a command and prepare it for execution
+            SqlCommand cmd = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(cmd, transaction.Connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Create the DataAdapter &amp; DataSet
+            XmlReader retval = cmd.ExecuteXmlReader();
+
+            // Detach the SqlParameters from the command object, so they can be used again
+            cmd.Parameters.Clear();
+            return retval;
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified 
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  XmlReader r = ExecuteXmlReader(trans, "GetOrders", 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReader(SqlTransaction transaction, string spName, params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                return ExecuteXmlReader(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                return ExecuteXmlReader(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion ExecuteXmlReader
+
+        #region FillDataset
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the database specified in 
+        /// the connection string. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(connString, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"});
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)&lt;/param&gt;
+        public static void FillDataset(string connectionString, CommandType commandType, string commandText, DataSet dataSet, string[] tableNames)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                FillDataset(connection, commandType, commandText, dataSet, tableNames);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the database specified in the connection string 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(connString, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"}, new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        public static void FillDataset(string connectionString, CommandType commandType,
+            string commandText, DataSet dataSet, string[] tableNames,
+            params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                FillDataset(connection, commandType, commandText, dataSet, tableNames, commandParameters);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the database specified in 
+        /// the connection string using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  FillDataset(connString, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"}, 24);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;    
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        public static void FillDataset(string connectionString, string spName,
+            DataSet dataSet, string[] tableNames,
+            params object[] parameterValues)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+            // Create &amp; open a SqlConnection, and dispose of it after we are done
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                // Call the overload that takes a connection in place of the connection string
+                FillDataset(connection, spName, dataSet, tableNames, parameterValues);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlConnection. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(conn, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"});
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;    
+        public static void FillDataset(SqlConnection connection, CommandType commandType, 
+            string commandText, DataSet dataSet, string[] tableNames)
+        {
+            FillDataset(connection, commandType, commandText, dataSet, tableNames, null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(conn, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"}, new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        public static void FillDataset(SqlConnection connection, CommandType commandType, 
+            string commandText, DataSet dataSet, string[] tableNames,
+            params SqlParameter[] commandParameters)
+        {
+            FillDataset(connection, null, commandType, commandText, dataSet, tableNames, commandParameters);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  FillDataset(conn, "GetOrders", ds, new string[] {"orders"}, 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        public static void FillDataset(SqlConnection connection, string spName, 
+            DataSet dataSet, string[] tableNames,
+            params object[] parameterValues)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                FillDataset(connection, CommandType.StoredProcedure, spName, dataSet, tableNames, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                FillDataset(connection, CommandType.StoredProcedure, spName, dataSet, tableNames);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset and takes no parameters) against the provided SqlTransaction. 
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(trans, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"});
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        public static void FillDataset(SqlTransaction transaction, CommandType commandType, 
+            string commandText,
+            DataSet dataSet, string[] tableNames)
+        {
+            FillDataset(transaction, commandType, commandText, dataSet, tableNames, null);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a SqlCommand (that returns a resultset) against the specified SqlTransaction
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(trans, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"}, new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        public static void FillDataset(SqlTransaction transaction, CommandType commandType, 
+            string commandText, DataSet dataSet, string[] tableNames,
+            params SqlParameter[] commandParameters)
+        {
+            FillDataset(transaction.Connection, transaction, commandType, commandText, dataSet, tableNames, commandParameters);
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified 
+        /// SqlTransaction using the provided parameter values.  This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method provides no access to output parameters or the stored procedure's return value parameter.
+        /// 
+        /// e.g.:  
+        ///  FillDataset(trans, "GetOrders", ds, new string[]{"orders"}, 24, 36);
+        /// &lt;/remarks&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        /// &lt;param name="parameterValues"&gt;An array of objects to be assigned as the input values of the stored procedure&lt;/param&gt;
+        public static void FillDataset(SqlTransaction transaction, string spName,
+            DataSet dataSet, string[] tableNames,
+            params object[] parameterValues)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((parameterValues != null) &amp;&amp; (parameterValues.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Assign the provided values to these parameters based on parameter order
+                AssignParameterValues(commandParameters, parameterValues);
+
+                // Call the overload that takes an array of SqlParameters
+                FillDataset(transaction, CommandType.StoredProcedure, spName, dataSet, tableNames, commandParameters);
+            }
+            else
+            {
+                // Otherwise we can just call the SP without params
+                FillDataset(transaction, CommandType.StoredProcedure, spName, dataSet, tableNames);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Private helper method that execute a SqlCommand (that returns a resultset) against the specified SqlTransaction and SqlConnection
+        /// using the provided parameters.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  FillDataset(conn, trans, CommandType.StoredProcedure, "GetOrders", ds, new string[] {"orders"}, new SqlParameter("@prodid", 24));
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection&lt;/param&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction&lt;/param&gt;
+        /// &lt;param name="commandType"&gt;The CommandType (stored procedure, text, etc.)&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;A dataset wich will contain the resultset generated by the command&lt;/param&gt;
+        /// &lt;param name="tableNames"&gt;This array will be used to create table mappings allowing the DataTables to be referenced
+        /// by a user defined name (probably the actual table name)
+        /// &lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters used to execute the command&lt;/param&gt;
+        private static void FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, 
+            string commandText, DataSet dataSet, string[] tableNames,
+            params SqlParameter[] commandParameters)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (dataSet == null) throw new ArgumentNullException("dataSet");
+
+            // Create a command and prepare it for execution
+            SqlCommand command = new SqlCommand();
+            bool mustCloseConnection = false;
+            PrepareCommand(command, connection, transaction, commandType, commandText, commandParameters, out mustCloseConnection);
+
+            // Create the DataAdapter &amp; DataSet
+            using (SqlDataAdapter dataAdapter = new SqlDataAdapter(command))
+            {
+
+                // Add the table mappings specified by the user
+                if (tableNames != null &amp;&amp; tableNames.Length &gt; 0)
+                {
+                    string tableName = "Table";
+                    for (int index = 0; index &lt; tableNames.Length; index++)
+                    {
+                        if (tableNames[index] == null || tableNames[index].Length == 0) throw new ArgumentException("The tableNames parameter must contain a list of tables, a value was provided as null or empty string.", "tableNames");
+                        dataAdapter.TableMappings.Add(tableName, tableNames[index]);
+                        tableName += (index + 1).ToString();
+                    }
+                }
+
+                // Fill the DataSet using default values for DataTable names, etc
+                dataAdapter.Fill(dataSet);
+
+                // Detach the SqlParameters from the command object, so they can be used again
+                command.Parameters.Clear();
+            }
+
+            if (mustCloseConnection)
+                connection.Close();
+        }
+        #endregion
+
+        #region UpdateDataset
+        /// &lt;summary&gt;
+        /// Executes the respective command for each inserted, updated, or deleted row in the DataSet.
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  UpdateDataset(conn, insertCommand, deleteCommand, updateCommand, dataSet, "Order");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="insertCommand"&gt;A valid transact-SQL statement or stored procedure to insert new records into the data source&lt;/param&gt;
+        /// &lt;param name="deleteCommand"&gt;A valid transact-SQL statement or stored procedure to delete records from the data source&lt;/param&gt;
+        /// &lt;param name="updateCommand"&gt;A valid transact-SQL statement or stored procedure used to update records in the data source&lt;/param&gt;
+        /// &lt;param name="dataSet"&gt;The DataSet used to update the data source&lt;/param&gt;
+        /// &lt;param name="tableName"&gt;The DataTable used to update the data source.&lt;/param&gt;
+        public static void UpdateDataset(SqlCommand insertCommand, SqlCommand deleteCommand, SqlCommand updateCommand, DataSet dataSet, string tableName)
+        {
+            if (insertCommand == null) throw new ArgumentNullException("insertCommand");
+            if (deleteCommand == null) throw new ArgumentNullException("deleteCommand");
+            if (updateCommand == null) throw new ArgumentNullException("updateCommand");
+            if (tableName == null || tableName.Length == 0) throw new ArgumentNullException("tableName");
+
+            // Create a SqlDataAdapter, and dispose of it after we are done
+            using (SqlDataAdapter dataAdapter = new SqlDataAdapter())
+            {
+                // Set the data adapter commands
+                dataAdapter.UpdateCommand = updateCommand;
+                dataAdapter.InsertCommand = insertCommand;
+                dataAdapter.DeleteCommand = deleteCommand;
+
+                // Update the dataset changes in the data source
+                dataAdapter.Update(dataSet, tableName);
+
+                // Commit all the changes made to the DataSet
+                dataSet.AcceptChanges();
+            }
+        }
+        #endregion
+
+        #region CreateCommand
+        /// &lt;summary&gt;
+        /// Simplify the creation of a Sql command object by allowing
+        /// a stored procedure and optional parameters to be provided
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// e.g.:  
+        ///  SqlCommand command = CreateCommand(conn, "AddCustomer", "CustomerID", "CustomerName");
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="sourceColumns"&gt;An array of string to be assigned as the source columns of the stored procedure parameters&lt;/param&gt;
+        /// &lt;returns&gt;A valid SqlCommand object&lt;/returns&gt;
+        public static SqlCommand CreateCommand(SqlConnection connection, string spName, params string[] sourceColumns)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // Create a SqlCommand
+            SqlCommand cmd = new SqlCommand(spName, connection);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            // If we receive parameter values, we need to figure out where they go
+            if ((sourceColumns != null) &amp;&amp; (sourceColumns.Length &gt; 0))
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Assign the provided source columns to these parameters based on parameter order
+                for (int index = 0; index &lt; sourceColumns.Length; index++)
+                    commandParameters[index].SourceColumn = sourceColumns[index];
+
+                // Attach the discovered parameters to the SqlCommand object
+                AttachParameters(cmd, commandParameters);
+            }
+
+            return cmd;
+        }
+        #endregion
+
+        #region ExecuteNonQueryTypedParams
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the database specified in 
+        /// the connection string using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQueryTypedParams(String connectionString, String spName, DataRow dataRow)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteNonQuery(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteNonQuery(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the specified SqlConnection 
+        /// using the dataRow column values as the stored procedure's parameters values.  
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQueryTypedParams(SqlConnection connection, String spName, DataRow dataRow)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteNonQuery(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteNonQuery(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns no resultset) against the specified
+        /// SqlTransaction using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An int representing the number of rows affected by the command&lt;/returns&gt;
+        public static int ExecuteNonQueryTypedParams(SqlTransaction transaction, String spName, DataRow dataRow)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // Sf the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteNonQuery(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteNonQuery(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+        #endregion
+
+        #region ExecuteDatasetTypedParams
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the database specified in 
+        /// the connection string using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDatasetTypedParams(string connectionString, String spName, DataRow dataRow)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            //If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteDataset(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteDataset(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the dataRow column values as the store procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDatasetTypedParams(SqlConnection connection, String spName, DataRow dataRow)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteDataset(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteDataset(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlTransaction 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on row values.
+        /// &lt;/summary&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A dataset containing the resultset generated by the command&lt;/returns&gt;
+        public static DataSet ExecuteDatasetTypedParams(SqlTransaction transaction, String spName, DataRow dataRow)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteDataset(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteDataset(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        #endregion
+
+        #region ExecuteReaderTypedParams
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the database specified in 
+        /// the connection string using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReaderTypedParams(String connectionString, String spName, DataRow dataRow)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteReader(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteReader(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReaderTypedParams(SqlConnection connection, String spName, DataRow dataRow)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteReader(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteReader(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlTransaction 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;A SqlDataReader containing the resultset generated by the command&lt;/returns&gt;
+        public static SqlDataReader ExecuteReaderTypedParams(SqlTransaction transaction, String spName, DataRow dataRow)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteReader(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteReader(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+        #endregion
+
+        #region ExecuteScalarTypedParams
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the database specified in 
+        /// the connection string using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalarTypedParams(String connectionString, String spName, DataRow dataRow)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connectionString, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteScalar(connectionString, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteScalar(connectionString, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the specified SqlConnection 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalarTypedParams(SqlConnection connection, String spName, DataRow dataRow)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteScalar(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteScalar(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a 1x1 resultset) against the specified SqlTransaction
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An object containing the value in the 1x1 resultset generated by the command&lt;/returns&gt;
+        public static object ExecuteScalarTypedParams(SqlTransaction transaction, String spName, DataRow dataRow)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteScalar(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteScalar(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+        #endregion
+
+        #region ExecuteXmlReaderTypedParams
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlConnection 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReaderTypedParams(SqlConnection connection, String spName, DataRow dataRow)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteXmlReader(connection, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteXmlReader(connection, CommandType.StoredProcedure, spName);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Execute a stored procedure via a SqlCommand (that returns a resultset) against the specified SqlTransaction 
+        /// using the dataRow column values as the stored procedure's parameters values.
+        /// This method will query the database to discover the parameters for the 
+        /// stored procedure (the first time each stored procedure is called), and assign the values based on parameter order.
+        /// &lt;/summary&gt;
+        /// &lt;param name="transaction"&gt;A valid SqlTransaction object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="dataRow"&gt;The dataRow used to hold the stored procedure's parameter values.&lt;/param&gt;
+        /// &lt;returns&gt;An XmlReader containing the resultset generated by the command&lt;/returns&gt;
+        public static XmlReader ExecuteXmlReaderTypedParams(SqlTransaction transaction, String spName, DataRow dataRow)
+        {
+            if (transaction == null) throw new ArgumentNullException("transaction");
+            if (transaction != null &amp;&amp; transaction.Connection == null) throw new ArgumentException("The transaction was rollbacked or commited, please provide an open transaction.", "transaction");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            // If the row has values, the store procedure parameters must be initialized
+            if (dataRow != null &amp;&amp; dataRow.ItemArray.Length &gt; 0)
+            {
+                // Pull the parameters for this stored procedure from the parameter cache (or discover them &amp; populate the cache)
+                SqlParameter[] commandParameters = SqlHelperParameterCache.GetSpParameterSet(transaction.Connection, spName);
+
+                // Set the parameters values
+                AssignParameterValues(commandParameters, dataRow);
+
+                return SqlHelper.ExecuteXmlReader(transaction, CommandType.StoredProcedure, spName, commandParameters);
+            }
+            else
+            {
+                return SqlHelper.ExecuteXmlReader(transaction, CommandType.StoredProcedure, spName);
+            }
+        }
+        #endregion
+
+    }
+
+    /// &lt;summary&gt;
+    /// SqlHelperParameterCache provides functions to leverage a static cache of procedure parameters, and the
+    /// ability to discover parameters for stored procedures at run-time.
+    /// &lt;/summary&gt;
+    public sealed class SqlHelperParameterCache
+    {
+        #region private methods, variables, and constructors
+
+        //Since this class provides only static methods, make the default constructor private to prevent 
+        //instances from being created with "new SqlHelperParameterCache()"
+        private SqlHelperParameterCache() { }
+
+        private static Hashtable paramCache = Hashtable.Synchronized(new Hashtable());
+
+        /// &lt;summary&gt;
+        /// Resolve at run time the appropriate set of SqlParameters for a stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="includeReturnValueParameter"&gt;Whether or not to include their return value parameter&lt;/param&gt;
+        /// &lt;returns&gt;The parameter array discovered.&lt;/returns&gt;
+        private static SqlParameter[] DiscoverSpParameterSet(SqlConnection connection, string spName, bool includeReturnValueParameter)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            SqlCommand cmd = new SqlCommand(spName, connection);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            connection.Open();
+            SqlCommandBuilder.DeriveParameters(cmd);
+            connection.Close();
+
+            if (!includeReturnValueParameter)
+            {
+                cmd.Parameters.RemoveAt(0);
+            }
+
+            SqlParameter[] discoveredParameters = new SqlParameter[cmd.Parameters.Count];
+
+            cmd.Parameters.CopyTo(discoveredParameters, 0);
+
+            // Init the parameters with a DBNull value
+            foreach (SqlParameter discoveredParameter in discoveredParameters)
+            {
+                discoveredParameter.Value = DBNull.Value;
+            }
+            return discoveredParameters;
+        }
+
+        /// &lt;summary&gt;
+        /// Deep copy of cached SqlParameter array
+        /// &lt;/summary&gt;
+        /// &lt;param name="originalParameters"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        private static SqlParameter[] CloneParameters(SqlParameter[] originalParameters)
+        {
+            SqlParameter[] clonedParameters = new SqlParameter[originalParameters.Length];
+
+            for (int i = 0, j = originalParameters.Length; i &lt; j; i++)
+            {
+                clonedParameters[i] = (SqlParameter)((ICloneable)originalParameters[i]).Clone();
+            }
+
+            return clonedParameters;
+        }
+
+        #endregion private methods, variables, and constructors
+
+        #region caching functions
+
+        /// &lt;summary&gt;
+        /// Add parameter array to the cache
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;param name="commandParameters"&gt;An array of SqlParamters to be cached&lt;/param&gt;
+        public static void CacheParameterSet(string connectionString, string commandText, params SqlParameter[] commandParameters)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (commandText == null || commandText.Length == 0) throw new ArgumentNullException("commandText");
+
+            string hashKey = connectionString + ":" + commandText;
+
+            paramCache[hashKey] = commandParameters;
+        }
+
+        /// &lt;summary&gt;
+        /// Retrieve a parameter array from the cache
+        /// &lt;/summary&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="commandText"&gt;The stored procedure name or T-SQL command&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParamters&lt;/returns&gt;
+        public static SqlParameter[] GetCachedParameterSet(string connectionString, string commandText)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (commandText == null || commandText.Length == 0) throw new ArgumentNullException("commandText");
+
+            string hashKey = connectionString + ":" + commandText;
+
+            SqlParameter[] cachedParameters = paramCache[hashKey] as SqlParameter[];
+            if (cachedParameters == null)
+            {
+                return null;
+            }
+            else
+            {
+                return CloneParameters(cachedParameters);
+            }
+        }
+
+        #endregion caching functions
+
+        #region Parameter Discovery Functions
+
+        /// &lt;summary&gt;
+        /// Retrieves the set of SqlParameters appropriate for the stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method will query the database for this information, and then store it in a cache for future requests.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParameters&lt;/returns&gt;
+        public static SqlParameter[] GetSpParameterSet(string connectionString, string spName)
+        {
+            return GetSpParameterSet(connectionString, spName, false);
+        }
+
+        /// &lt;summary&gt;
+        /// Retrieves the set of SqlParameters appropriate for the stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method will query the database for this information, and then store it in a cache for future requests.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connectionString"&gt;A valid connection string for a SqlConnection&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="includeReturnValueParameter"&gt;A bool value indicating whether the return value parameter should be included in the results&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParameters&lt;/returns&gt;
+        public static SqlParameter[] GetSpParameterSet(string connectionString, string spName, bool includeReturnValueParameter)
+        {
+            if (connectionString == null || connectionString.Length == 0) throw new ArgumentNullException("connectionString");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                return GetSpParameterSetInternal(connection, spName, includeReturnValueParameter);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Retrieves the set of SqlParameters appropriate for the stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method will query the database for this information, and then store it in a cache for future requests.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParameters&lt;/returns&gt;
+        internal static SqlParameter[] GetSpParameterSet(SqlConnection connection, string spName)
+        {
+            return GetSpParameterSet(connection, spName, false);
+        }
+
+        /// &lt;summary&gt;
+        /// Retrieves the set of SqlParameters appropriate for the stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;remarks&gt;
+        /// This method will query the database for this information, and then store it in a cache for future requests.
+        /// &lt;/remarks&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="includeReturnValueParameter"&gt;A bool value indicating whether the return value parameter should be included in the results&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParameters&lt;/returns&gt;
+        internal static SqlParameter[] GetSpParameterSet(SqlConnection connection, string spName, bool includeReturnValueParameter)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            using (SqlConnection clonedConnection = (SqlConnection)((ICloneable)connection).Clone())
+            {
+                return GetSpParameterSetInternal(clonedConnection, spName, includeReturnValueParameter);
+            }
+        }
+
+        /// &lt;summary&gt;
+        /// Retrieves the set of SqlParameters appropriate for the stored procedure
+        /// &lt;/summary&gt;
+        /// &lt;param name="connection"&gt;A valid SqlConnection object&lt;/param&gt;
+        /// &lt;param name="spName"&gt;The name of the stored procedure&lt;/param&gt;
+        /// &lt;param name="includeReturnValueParameter"&gt;A bool value indicating whether the return value parameter should be included in the results&lt;/param&gt;
+        /// &lt;returns&gt;An array of SqlParameters&lt;/returns&gt;
+        private static SqlParameter[] GetSpParameterSetInternal(SqlConnection connection, string spName, bool includeReturnValueParameter)
+        {
+            if (connection == null) throw new ArgumentNullException("connection");
+            if (spName == null || spName.Length == 0) throw new ArgumentNullException("spName");
+
+            string hashKey = connection.ConnectionString + ":" + spName + (includeReturnValueParameter ? ":include ReturnValue Parameter" : "");
+
+            SqlParameter[] cachedParameters;
+
+            cachedParameters = paramCache[hashKey] as SqlParameter[];
+            if (cachedParameters == null)
+            {
+                SqlParameter[] spParameters = DiscoverSpParameterSet(connection, spName, includeReturnValueParameter);
+                paramCache[hashKey] = spParameters;
+                cachedParameters = spParameters;
+            }
+
+            return CloneParameters(cachedParameters);
+        }
+
+        #endregion Parameter Discovery Functions
+
+    }</value>
+  </data>
+  <data name="strIExecuteDataReader" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace {0}
+&lt;&lt;
+    interface IExecuteDataReader
+    &lt;&lt;
+        System.Data.SqlClient.SqlDataReader ExecuteDataReader();
+    &gt;&gt;
+&gt;&gt;</value>
+  </data>
+  <data name="strIExecuteDataReaderImplementation" xml:space="preserve">
+    <value>public System.Data.SqlClient.SqlDataReader ExecuteDataReader()
+        &lt;&lt;
+            return base.ExecuteDataReader({0});
+        &gt;&gt;</value>
+  </data>
+</root>
